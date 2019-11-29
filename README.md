@@ -1,6 +1,7 @@
 # Projeto_Final SO
 
 Aluno: Hériclys Barbosa de Sousa
+Aluno: Samuel Saraiva Campos
 
 
 ## PROGRAMA ORIGINAL:
@@ -108,7 +109,7 @@ Pid pode ser interpretado como a digital de uma pessoa, a qual cada um tem uma d
 o endereço de um pthread_t em específico, a função que ele executará quando for criado, NULL deixa em aberto 
 seu resultado, sendo que o mesmo pode ser alterado durante sua execução.
 
-## 10: `printf("A thread %lu foi criada\n", &newthread[i]);`
+## 10: `printf("A thread %ld foi criada\n", &newthread[i]);`
 Aqui ele printará a thread que foi gerada.
 
 ## 11: `goto enunciado; / enunciado:`
